@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import DoctorCard from './components/DoctorCard';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
 interface Doctor {
@@ -29,10 +30,14 @@ function App() {
   }, []);
 
   return (
-    <div className="doctor-list">
-      {equipo.map((doctor, index) => (
-        <DoctorCard key={index} doctor={doctor} />
-      ))}
+    <div className="container">
+      <div className="row">
+        {equipo.map((doctor, index) => (
+          <div className="col-md-4" key={index}>
+            <DoctorCard doctor={doctor} />
+          </div>
+        ))}
+      </div>
     </div>
   );
 }
