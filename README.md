@@ -2,6 +2,7 @@
 Sesión Interactiva de Preguntas y Respuestas: Introducción a TypeScript en ReactJS
 
 ## ¿Qué es TypeScript y para qué se utiliza?
+
 TypeScript es un superconjunto de JavaScript que incorpora tipado estático y herramientas avanzadas de desarrollo. Esto significa que cualquier código JavaScript válido también es válido en TypeScript, pero con la posibilidad de agregar tipos y utilizar características avanzadas del lenguaje.
 ---
 ## Principales diferencias entre TypeScript y JavaScript
