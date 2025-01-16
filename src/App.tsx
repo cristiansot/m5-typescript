@@ -33,7 +33,7 @@ function App() {
   return (
     <>
     <Logo />
-      <div className="container">
+      <div className="container" style={{ marginBottom: 40 }}>
         <div className="row">
           {equipo.map((doctor, index) => (
             <div className="col-md-4" key={index}>
